@@ -1,0 +1,9 @@
+name = relogo
+description = 
+core = 7.x
+package = 
+php = 
+version =
+dependencies[] = 
+files[] = 
+configure = 
