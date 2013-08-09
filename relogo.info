@@ -1,9 +1,8 @@
 name = relogo
-description = 
+description = relogo is a proposed standard for serving and maintaining up-to-date logos for use in various media.
 core = 7.x
-package = 
-php = 
-version =
-dependencies[] = 
-files[] = 
-configure = 
+package = Other
+version = 1.0.0
+files[] = relogo.module
+files[] = relogo.install
+configure = admin/config/media/relogo

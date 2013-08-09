@@ -1,1 +1,15 @@
 <?php
+// $Id$
+
+/**
+ * @file
+ * Remove variables when module is uninstalled.
+ */
+
+/**
+ * Implement hook_uninstall().
+ */
+function relogo_uninstall() {
+  variable_del('relogo_enable');
+  variable_del('relogo_upload_path');
+}
